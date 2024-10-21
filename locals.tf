@@ -16,7 +16,9 @@ locals {
         }
         "flutter-app" = {
       description        = "Flutter mobile app"
-      gitignore_template = "Flutter"
+
+      gitignore_template = "Dart"
+
       name               = "flutter-app"
       topics             = ["flutter", "mobile"]
       visibility         = "public"
