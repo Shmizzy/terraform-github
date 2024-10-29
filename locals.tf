@@ -35,5 +35,6 @@ locals {
             topics             = ["terraform", "aws"]
             visibility         = "public"
         }
+
     }
 }
