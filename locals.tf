@@ -15,13 +15,26 @@ locals {
             visibility = "public"
         }
         "flutter-app" = {
-      description        = "Flutter mobile app"
+            description        = "Flutter mobile app"
+            gitignore_template = "Flutter"
+            name               = "flutter-app"
+            topics             = ["flutter", "mobile"]
+            visibility         = "public"
+        }
+        "tricktreat-eci-terraform-aws-network" = {
+            description        = "Terraform module for AWS network"
+            gitignore_template = "Terraform"
+            name               = "tricktreat-eci-terraform-aws-network"
+            topics             = ["terraform", "aws"]
+            visibility         = "public"
+        }
+        "tricktreat-eci-terraform-aws-cluster" = {
+            description        = "Terraform module for AWS cluster"
+            gitignore_template = "Terraform"
+            name               = "tricktreat-eci-terraform-aws-cluster"
+            topics             = ["terraform", "aws"]
+            visibility         = "public"
+        }
 
-      gitignore_template = "Dart"
-
-      name               = "flutter-app"
-      topics             = ["flutter", "mobile"]
-      visibility         = "public"
-    }
     }
 }
